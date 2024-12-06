@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+ img{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.formbox {
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+transform: translate(-50%,-50%);
+background: white;
+padding: 50px 60px 70px;
+text-align: center;
+}
+.formbox h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: blue ;
+    position: relative;
+}
+/* .formbox h1 ::after{
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: rgb(77, 77, 224);
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translatex(-50%);
+} */
+ .inputfld{
+   background: #eaeaea;
+   margin: 15px 0;
+   border-radius: 3px;
+   display: flex; 
+   max-height: 65px;
+   align-items: center;
+   transition: max-height 0.5s;
+   overflow: hidden;
+ }
+ input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+ }
+ .inputfld i {
+    margin-left: 15px;
+    color: #999;
+ }
+ form p{
+    text-align: left;
+    font-size: 15px;    
+ }
+ .loginflds{
+width: 100%;
+display: flex;
+justify-content: space-between;
+ }
+ .loginflds button{
+    flex-basis: 48%;
+    background: blue;
+    color: white;
+    height: 40px;
+    border-radius: 40px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+ }
+ .loginflds button.disable{
+    background-color: #eaeaea;
+    color: black;
+ }
+ input.next{
+    background-color: rgb(219, 9, 9);
+    border-radius: 50px;
+    width: 100px;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    margin: 30px ;
+    
+    
+ }
